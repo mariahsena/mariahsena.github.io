@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>O Diário da Princesa - Contato</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0d47a1;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background: #1565c0;
+            padding: 8px 12px;
+            margin: 2px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #42a5f5;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input,
+        textarea {
+            display: block;
+            /* cada campo em uma linha */
+            margin: 10px auto;
+            /* centraliza */
+            padding: 8px;
+            width: 300px;
+            border: 1px solid #1565c0;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #1565c0;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #42a5f5;
+        }
+
+        .bloco {
+            background-color: #bbdefb;
+            /* azul claro de fundo */
+            border: 2px solid #1565c0;
+            /* borda azul */
+            border-radius: 10px;
+            /* cantos arredondados */
+            padding: 15px;
+            /* espaço interno */
+            margin: 20px auto;
+            /* espaço entre blocos */
+            width: 30%;
+            /* largura do bloco */
+            text-align: center;
+            /* texto alinhado */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contato</h1>
+
+    <!-- Menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sinopse.html">Sinopse</a>
+        <a href="elenco.html">Elenco</a>
+        <a href="trailer.html">Trailer</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Formulário -->
+    <div class="bloco">
+    <form>
+        <input type="text" placeholder="Nome" required>
+        <input type="text" placeholder="Sobrenome" required>
+        <input type="text" placeholder="CEP" required>
+        <input type="text" placeholder="Endereço" required>
+        <input type="text" placeholder="Cidade" required>
+        <input type="text" placeholder="Bairro" required>
+        <input type="email" placeholder="E-mail" required>
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+
+</html>

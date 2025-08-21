@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- Diz ao navegador que é um arquivo HTML5 -->
+<html>
+
+<head>
+  <meta charset="UTF-8"> <!-- Permite usar acentos e caracteres especiais -->
+  <title>O Diário da Princesa - Home</title> <!-- Texto que aparece na aba do navegador -->
+
+  <!-- CSS (estilos visuais do site) -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* Define a fonte usada */
+      background-color: #e3f2fd;
+      /* Cor de fundo azul bem claro */
+      text-align: center;
+      /* Centraliza todo o conteúdo */
+    }
+
+    h1 {
+      color: #0d47a1;
+      /* Azul escuro para o título */
+    }
+
+    nav a {
+      text-decoration: none;
+      /* Remove o sublinhado dos links */
+      color: white;
+      /* Texto dos links fica branco */
+      background: #1565c0;
+      /* Fundo azul médio nos botões */
+      padding: 8px 12px;
+      /* Espaço interno dentro do botão */
+      margin: 2px;
+      /* Espaço entre os botões */
+      border-radius: 5px;
+      /* Deixa os cantos arredondados */
+      display: inline-block;
+      /* Faz cada link parecer um botão */
+    }
+
+    nav a:hover {
+      background: #42a5f5;
+      /* Azul claro quando o mouse passa em cima */
+    }
+
+    img {
+      border: 3px solid #1565c0;
+      /* Borda azul na imagem */
+      border-radius: 10px;
+      /* Arredonda os cantos da imagem */
+      margin-top: 20px; /* aumenta o espaço acima da imagem */
+    }
+
+    .bloco {
+      background-color: #bbdefb;
+      /* azul claro de fundo */
+      border: 2px solid #1565c0;
+      /* borda azul */
+      border-radius: 10px;
+      /* cantos arredondados */
+      padding: 15px;
+      /* espaço interno */
+      margin: 20px auto;
+      /* espaço entre blocos */
+      width: 70%;
+      /* largura do bloco */
+      text-align: center;
+      /* texto alinhado */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Título principal -->
+  <h1>O Diário da Princesa</h1>
+
+
+
+  <!-- Menu de navegação (links para as páginas do site) -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="sinopse.html">Sinopse</a>
+    <a href="elenco.html">Elenco</a>
+    <a href="trailer.html">Trailer</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <!-- Imagem principal do site (ficará na pasta "imagens") -->
+  <img src="imagens/poster.webp" width="500">
+
+  <!-- Texto de apresentação -->
+  <div class="bloco">
+  <p>Bem-vindo ao site sobre o filme <b>O Diário da Princesa</b>, lançado em 2001 pela Disney.</p>
+  </div>
+</body>
+
+</html>
