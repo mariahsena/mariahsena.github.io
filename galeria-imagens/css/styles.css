@@ -1,0 +1,65 @@
+body {
+    font-family : Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns : repeat(3, auto);
+    gap: 10px;
+    justify-content: center;
+}
+
+.fotografia {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10 px;
+    text-align: center;
+    width: 200px;
+}
+
+.fotografia:hover {
+    transform: scale (1.1);
+    transition: transform 0.3s;
+}
+
+.fotografia img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.fotografia h2{
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.fotografia p {
+    font-size: 12px;
+    color: #555;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 5px 0; /* Adiciona espaço ao redor do texto */
+    width: 100%;
+    position: relative;
+    display: flex; /* Usamos flexbox para centralizar o texto verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha o texto no topo do footer (ajuste isso conforme necessário) */
+    height: 40px; /* Ajuste a altura do footer conforme o desejado */
+
+main{
+    margin-bottom: 60 px;
+}
